@@ -43,14 +43,12 @@ public class first {
 
 // ----------conditional statements-------
 //  Scanner sc = new Scanner(System.in);
-       
-//   System.out.println("enter first number");
+       //   System.out.println("enter first number");
 //         int num = sc.nextInt();
 //         if(num%2==0){
 //                 System.out.println("this number is even number");
 //         }else{
 //                 System.out.println("this number is odd number");
-
 //         }
 // }
   
@@ -61,6 +59,58 @@ public class first {
 //         }else{
 //                 System.out.println("this number is not divisible by 5");
 
-       }
+// --------nested if else statements----------------
+//  int x= sc.nextInt();
+        //  if(x%5==0 && x%3==0){
+        //     System.out.println("divisible by 5 and 3");
+        // }else if(x%3==0){
+        //     System.out.println("divisible by 3");
+        // }
+        // else if(x%5==0 ){
+        //     System.out.println("divisible by 5");
+        //  }
+        //  else {
+        //     System.out.println("not divisible by 5 or 3");
+        // }
+
+// --------------GREATEST OF THREE NUMBERS---------------
+        // int b = sc.nextInt();
+        // if(b<69){
+        //     System.out.println("b is smaller than 69");
+        // }else{
+        //     System.out.println("b is greater than 69");
+        // }
+        // if(b%5==0 || b%3==0){
+        //     System.out.println("divisible by 5 or 3");
+        // }else {
+        //     System.out.println("not divisible by 5 or 3");
+        // } 
+        
+        // --------perimeter and area of rectangle-------
+ // int l = sc.nextInt();
+    // int b = sc.nextInt();
+    // int area = l*b;
+    //System.out.println("Area of rectangle is: " + area);
+    // int perimeter=2*(l+b);
+    //System.out.println("perimeter of rectangle is: " + perimeter);
+    // if(area>perimeter){
+    //     System.out.println("area is greater than perimeter");
+    // }else{
+    //     System.out.println("perimeter is greater than area");
+    // } 
+
+// -------LOOPS----------
+// for(int i =7; i<=12; i++){
+//     System.out.println(i);
+// }
+
+// -------PRINTING EVEN NUMBERS------
+// int n = sc.nextInt();
+// for (int i = 1; i<=100; i++){
+//     if(i%2==0){
+//         System.out.println(i);    
+//        }
 
 }
+
+    }
