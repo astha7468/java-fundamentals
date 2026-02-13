@@ -1,7 +1,8 @@
 package basics;
-
+import java.util.Scanner;
 public class first {
     public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
 // ------basic print statement----------------
         // System.out.println("Hello");
@@ -86,7 +87,7 @@ public class first {
         //     System.out.println("not divisible by 5 or 3");
         // } 
         
-        // --------perimeter and area of rectangle-------
+// --------perimeter and area of rectangle-------
  // int l = sc.nextInt();
     // int b = sc.nextInt();
     // int area = l*b;
@@ -111,6 +112,18 @@ public class first {
 //         System.out.println(i);    
 //        }
 
-}
+// --------number divisible by 3-------
 
+int n = sc.nextInt();
+// for(int i = 1; i<=n; i++){
+//         if(i%3==0){
+//                 System.out.println(i);
+//         }
+// }
+
+// ---------printing table of any number-------
+// for(int i =1; i<=10; i++){
+//         System.out.println("12 x " + i + " = " + 12*i);
+// }
     }
+}
