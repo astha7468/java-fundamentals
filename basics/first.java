@@ -115,6 +115,7 @@ public class first {
 // --------number divisible by 3-------
 
 int n = sc.nextInt();
+
 // for(int i = 1; i<=n; i++){
 //         if(i%3==0){
 //                 System.out.println(i);
@@ -125,5 +126,21 @@ int n = sc.nextInt();
 // for(int i =1; i<=10; i++){
 //         System.out.println("12 x " + i + " = " + 12*i);
 // }
-    }
+
+// -----printing AP n terms-------
+// for (int i = 2; i<=3*n-1; i+=3){
+//         System.out.println(i);
+//          }
+
+// -------- printing composite number -------
+for(int i = 2; i<=n-1; i++){
+        if(n%i==0){
+                System.out.println("composite number");
+                break;
+        }
+        
+}
+
+
+     }
 }
