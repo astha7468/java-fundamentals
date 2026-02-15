@@ -133,14 +133,21 @@ int n = sc.nextInt();
 //          }
 
 // -------- printing composite number -------
-for(int i = 2; i<=n-1; i++){
-        if(n%i==0){
-                System.out.println("composite number");
-                break;
-        }
-        
-}
+// for(int i = 2; i<=n-1; i++){
+//         if(n%i==0){
+//                 System.out.println("composite number");
+//                 break;
+//         }
+// }
 
+// -------printing reverse number--------
+int r = 0;
+while(n!=0){
+        r*=10;
+        r+=(n%10) ;
+        n/=10;
+}
+System.out.println(r);
 
      }
 }
