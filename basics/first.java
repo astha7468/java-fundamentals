@@ -169,6 +169,14 @@ int n = sc.nextInt();
 //        }
 // System.out.println(fact);// print directly factorial of n
 
+// -------a raise to power b------
+// int b = sc.nextInt();
+// int pow=1;
+// for(int i =1;i<=b; i++){
+//         pow*=n;
+// }
+// System.out.println(pow);
+
 
 
      }
