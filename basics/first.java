@@ -161,6 +161,13 @@ int n = sc.nextInt();
 // int sum = original+r;
 // System.out.println(sum);
 
+// ----------factorial of a number-------
+int fact = 1;
+for(int i = 1; i<=n; i++){
+        fact*=i;
+        }
+System.out.println(fact);
+
 
 
      }
