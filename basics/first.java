@@ -162,11 +162,12 @@ int n = sc.nextInt();
 // System.out.println(sum);
 
 // ----------factorial of a number-------
-int fact = 1;
-for(int i = 1; i<=n; i++){
-        fact*=i;
-        }
-System.out.println(fact);
+// int fact = 1;
+// for(int i = 1; i<=n; i++){
+//         fact*=i;
+// System.out.println(fact);// print factorial from 1 to n
+//        }
+// System.out.println(fact);// print directly factorial of n
 
 
 
