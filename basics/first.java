@@ -141,13 +141,27 @@ int n = sc.nextInt();
 // }
 
 // -------printing reverse number--------
-int r = 0;
-while(n!=0){
-        r*=10;
-        r+=(n%10) ;
-        n/=10;
-}
-System.out.println(r);
+// int r = 0;
+// while(n!=0){
+//         r*=10;
+//         r+=(n%10) ;
+//         n/=10;
+// }
+// System.out.println(r);
+
+// -------add original no and reverse number-------
+// int original = n;
+// int r = 0;
+// while(n!=0){
+//         r*=10;
+//         r+=(n%10) ;
+//         n/=10;
+// }
+// System.out.println(r);
+// int sum = original+r;
+// System.out.println(sum);
+
+
 
      }
 }
