@@ -6,7 +6,8 @@ public class patterns {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        // int b = sc.nextInt();
+        //  int b = sc.nextInt();
+
 //! --------- triangle star pattern----------
         // for(int i =1; i<=a; i++){
         //     for(int j =1; j<=i; j++){
@@ -107,7 +108,75 @@ public class patterns {
 //     System.out.println();
 // }
 
-   }
+//! flipped triangle pattern  with numbers
+// for(int i =1; i<=a; i++){
+//     for (int j=1; j<=a+1-i; j++){
+//         System.out.print(j+ " ");
+//     }
+//     System.out.println();
+// }
+
+//! flipped triangle pattern with alphabet
+// for(int i=1; i<=a; i++){
+//     for(int j=1; j<=a+1-i; j++){
+//         System.out.print((char)(j+96)+ " ");
+//     }
+//     System.out.println();
+// }
+
+//! hollow rectangle pattern
+// for(int i =1; i<=a; i++){
+//             for(int j =1; j<=b; j++){
+//                 if(i==1||i==a||j==1||j==b){
+//                     System.out.print("*");
+//                 }
+//                 else{
+//                     System.out.print(" ");
+//    }
+//             }
+//             System.out.println();   
+//         }
+   
+//!star pattern with spaces
+// int mid = a/2+1;
+// for(int i =1; i<=a; i++){
+//             for(int j =1; j<=a; j++){
+//                 if(i==mid||j==mid){
+//                     System.out.print("*");
+//                 }
+//                 else{
+//                     System.out.print(" ");
+//    }
+//             }
+//             System.out.println();   
+//         }
+
+//! diagonal star pattern
+// for(int i=0; i<=a;i++){
+//     for(int j=0; j<=a; j++){
+//         if(i==j||i+j==a-1){
+//             System.out.print("*");
+//         }
+//         else{
+//             System.out.print(" ");
+//         }
+//     }
+//     System.out.println();
+// }
+
+  //!floyd triangle
+//   int n=1;
+//   for(int i =1; i<=a; i++){
+//     for(int j =1; j<=i; j++){
+//         System.out.print(n+ " ");
+//         n++;
+//     }
+//     System.out.println();
+//   }
+  
+
+}
+
 }
 
 
