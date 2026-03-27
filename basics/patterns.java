@@ -8,7 +8,7 @@ public class patterns {
         int a = sc.nextInt();
         //  int b = sc.nextInt();
 
-//! --------- triangle star pattern----------
+//! triangle star pattern
         // for(int i =1; i<=a; i++){
         //     for(int j =1; j<=i; j++){
         //         System.out.print("*");
@@ -16,7 +16,7 @@ public class patterns {
         //     System.out.println();   
         // }
 
-//! ------------ single line of stars--------
+//! single line of stars
         // for(int i =1; i<=a; i++){
         //     for(int j =1; j<=i; j++){
         //         System.out.print("*");
@@ -24,7 +24,7 @@ public class patterns {
         //     System.out.println();   
         // }
    
-//! ---------when no of rows and columns are different----------
+//! when no of rows and columns are different
     // for(int i =1; i<=a; i++){
     //         for(int j =1; j<=b; j++){
     //             System.out.print("*");
@@ -32,7 +32,7 @@ public class patterns {
     //         System.out.println();   
     //     }   
    
-//! ---------square star---------
+//! square star
     //   for(int i =1; i<=a; i++){
     //         for(int j =1; j<=a; j++){
     //             System.out.print("*");
@@ -40,7 +40,7 @@ public class patterns {
     //         System.out.println();   
     //     } 
 
-//! ---------when u have to print numbers like 1234 in square pattern-------    
+//! when u have to print numbers like 1234 in square pattern    
     // for(int i =1; i<=a; i++){
     //         for(int j =1; j<=a; j++){
     //             System.out.println(j);  it print simple 1 2 3 4
@@ -49,7 +49,7 @@ public class patterns {
     //         System.out.println();   
     //     } 
 
-//!  ---------when you have to print numbers like 1111 in square pattern-------
+//! when you have to print numbers like 1111 in square pattern
         // for(int i =1; i<=a; i++){
         //     for(int j =1; j<=a; j++){
         //         System.out.print(i+  " ");
@@ -164,7 +164,7 @@ public class patterns {
 //     System.out.println();
 // }
 
-  //!floyd triangle
+//!floyd triangle
 //   int n=1;
 //   for(int i =1; i<=a; i++){
 //     for(int j =1; j<=i; j++){
@@ -173,11 +173,21 @@ public class patterns {
 //     }
 //     System.out.println();
 //   }
-  
+ 
+//! alternate 1010 pattern
+// for(int i=1; i<=a; i++){
+//     for(int j=1; j<=i; j++){
+//         if((i+j)%2==0){
+//             System.out.print(1 + " ");
+//         }
+//         else{
+//             System.out.print(0 + " ");
+//         } 
+//     }
+//     System.out.println();  
+// }
 
+
+    }
 }
-
-}
-
-
 
