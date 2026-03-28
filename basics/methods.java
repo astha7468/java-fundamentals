@@ -57,6 +57,19 @@ public class methods{
 //     min(9, 5, 10);
 // }
 
+//!return type
+// public static int Astha(){     
+//     System.out.println("hello");
+//     return 8;
+// }
+
+// public static void main(String[]args){
+//     System.out.println(Astha());
+// }
+// here ASTHA  is using as a function which is returning an integer value 8 and also printing "hello" when called in the main method.
+
+
 }
+
 
 
