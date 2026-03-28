@@ -126,4 +126,14 @@ public class methods{
 //     product(10, 20);
 // }
 
+
+
+//!---------pass by value and pass by reference-------
+// public static void change(int a){
+//     a = 98;   if here i write sout then it will print 98
+// }
+// public static void main(String[]args){
+//     int x = 45;
+//     change(x);     pass by value
+//     System.out.println(x);   this print 45 
 }
