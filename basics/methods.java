@@ -1,7 +1,8 @@
 package basics;
 
 public class methods{
-//! basics understanding of methods/functions
+
+//---------- basics understanding of methods/functions--------------
     // public static void Astha(){
     //     prachi();                  //LINE 5
     //     System.out.println("hello"); //LINE 7
@@ -17,7 +18,7 @@ public class methods{
     //     Astha();                        // LINE 4
     // }
 
-//! sum function
+//---------- sum function---------------
 // public static void sum(int a, int b){
 //     System.out.println(a + b);
 // }
@@ -25,7 +26,7 @@ public class methods{
 //     sum(10, 20);
 // }
 
-//! function to find maximum of three numbers
+//-------------function to find maximum of three numbers-------------
 // public static void max(int a,int b, int c){
 //   if(a>b && a>c){
 //     System.out.println(a);
@@ -41,7 +42,7 @@ public class methods{
 //     max(9, 5, 10);
 // }
 
-//! function to find minimum of three numbers
+//-------------function to find minimum of three numbers-------------
 // public static void min(int a,int b, int c){
 //   if(a<b && a<c){
 //     System.out.println(a);
@@ -57,12 +58,11 @@ public class methods{
 //     min(9, 5, 10);
 // }
 
-//!return type
+ //---------------return type-----------------
 // public static int Astha(){     
 //     System.out.println("hello");
 //     return 8;
 // }
-
 // public static void main(String[]args){
 //     System.out.println(Astha());
 // }
