@@ -1,13 +1,12 @@
 package basics;
-
-public class arrays {
+public class Array {
     public static void main(String[]args){
-         int[] arr = {1, 2, 3, 4, 5};  
+        //  int[] arr = {1, 2, 3, 4, 5};  
         // Scanner sc = new Scanner(System.in);
         // System.out.println(arr[4]);
 
 //!-----------------MODIFYING AN ARRAY----------------
-        // arr[4]=234;
+         // arr[4]=234;
         // System.out.println(arr[4]);
 
 
@@ -112,6 +111,97 @@ public class arrays {
         //           }
         //        }
         //        System.out.println("Minimum element: " + min);
-}
+
+
+//!------------------PASSING ARRAY TO METHODS/FUNCTIONS---------------
+        // int[] arr = {10,12,34,45,67};
+        // System.out.println(arr[3]); //? line 1
+        // change(arr);                //? line 2
+        // System.out.println(arr[3]); //? line 4
+        // }
+        // //? PASS BY REFERENCE
+        // public static void change(int[] arr){   //?line 3    
+        //         arr[3]=100;
+       // }
+
+
+//!----------------SHALLOW COPY-------------
+        //  int[] arr = {1,2,3,4};
+        //  int[] x = arr;
+        //  x[3]=9;
+        //  System.out.println(arr[3]);
+
+//!--------------DEEP COPY-------------
+//        int []arr = {1,2,3,4};
+//        int[] w = Arrays.copyOf(arr, arr.length);
+//        w[2]=90;
+//        System.out.println(w[2]);
+//        System.out.println(arr[2]); 
+
+//!----------------SORT OF ARRAY--------------
+//         int[] arr={5,3,4,34,6};
+//         print(arr);
+//         Arrays.sort(arr);
+//         print(arr);
+// }  
+// public static void print(int[] arr){
+//         for(int i=0;i<arr.length;i++){
+//                 System.out.println(arr[i]);
+//         }
+//         System.out.println();
+
+//!-------------MULTIPLYING ODD INDEXED ELEMENTS BY 2 AND 10 TO EVEN INDEXED ELEMENTS----------------
+        //    int[] arr = {2,3,4,67,89};
+        //    for(int i =0; i<arr.length; i++){
+        //         if(arr[i]% 2==0){
+        //                 arr[i]*=10;
+        //         }
+        //         else{
+        //                 arr[i]*=2;
+        //         }
+        //         }
+        //         for(int i=0; i<arr.length; i++){
+        //                 System.out.println(arr[i]);
+        //         }
+
+//!-----------------SEARCH IN ARRAY---------------
+//        int[] arr = {23,34,56,67};
+//        int target = 45;
+//        boolean found = false;
+//        for(int i=0; i<arr.length; i++){
+//           if(arr[i]==target){
+//                 found = true;
+//                 break;
+//          }
+//        }
+//        if(found){
+//            System.out.println("yes");
+//        }
+//        else{
+//            System.out.println("no");
+//        }
+
+
+//!----------------TWO SUM--------------
+       int[] arr ={1,1,3,4};
+       int target = 2;
+       boolean found = false;
+       for(int i=0; i<arr.length; i++){
+             for(int j=i+1; j<arr.length; j++){
+                if(arr[i]+arr[j]==target){
+                        found=true;
+                        break;
+                }
+             }
+       }
+       if(found){
+        System.out.println("yes");
+       }
+       else{
+        System.out.println("no");
+       }
+
+
+           }
 
 }
