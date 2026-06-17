@@ -183,25 +183,52 @@ public class Array {
 
 
 //!----------------TWO SUM--------------
-       int[] arr ={1,1,3,4};
-       int target = 2;
-       boolean found = false;
-       for(int i=0; i<arr.length; i++){
-             for(int j=i+1; j<arr.length; j++){
-                if(arr[i]+arr[j]==target){
-                        found=true;
-                        break;
-                }
-             }
-       }
-       if(found){
-        System.out.println("yes");
-       }
-       else{
-        System.out.println("no");
-       }
+//        int[] arr ={1,1,3,4};
+//        int target = 2;
+//        boolean found = false;
+//        for(int i=0; i<arr.length; i++){
+//              for(int j=i+1; j<arr.length; j++){
+//                 if(arr[i]+arr[j]==target){
+//                         found=true;
+//                         break;
+//                   }
+//              }
+//        }
+//        if(found){
+//         System.out.println("yes");
+//        }
+//        else{
+//         System.out.println("no");
+//        }
 
 
-           }
+//!-----------------SECOND MAXIMUM ELEMNET IN AN ARRAY------------
+        // int[] arr = {23, 34, 56, 9};
+        // int max = Integer.MIN_VALUE;
+        // int smax = Integer.MIN_VALUE;
+        // int thirdmax = Integer.MIN_VALUE;
 
+        // for (int i = 0; i < arr.length; i++) {
+        //     int num = arr[i];
+        //     if (num > max) {
+        //         thirdmax = smax;
+        //         smax = max;
+        //         max = num;
+        //     } 
+        //     else if (num > smax && num != max) {
+        //         thirdmax = smax;
+        //         smax = num;
+        //     } 
+        //     else if (num > thirdmax && num != smax && num != max) {
+        //         thirdmax = num;
+        //     }
+        // }
+
+        // System.out.println("Third maximum = " + thirdmax);
+    }
 }
+
+
+       
+
+    
