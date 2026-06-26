@@ -207,7 +207,6 @@ public class Array {
         // int max = Integer.MIN_VALUE;
         // int smax = Integer.MIN_VALUE;
         // int thirdmax = Integer.MIN_VALUE;
-
         // for (int i = 0; i < arr.length; i++) {
         //     int num = arr[i];
         //     if (num > max) {
@@ -223,8 +222,25 @@ public class Array {
         //         thirdmax = num;
         //     }
         // }
-
         // System.out.println("Third maximum = " + thirdmax);
+
+
+//!-----------REVERSE  ARRAY-----------
+        int [] arr = {23,3,45,7,89};
+        int n = arr.length;
+        int i =0;
+        int j=n-1;
+        while (i<j){
+                int temp =arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+                i++;
+                j--;
+        }
+        for(int ele:arr){
+                System.out.println(ele);
+
+        }
     }
 }
 
